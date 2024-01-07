@@ -1,10 +1,131 @@
 /* common style */
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif; */
 }
 
-h1{
-    color: red;
+.section-title {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+}
+
+.common-title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Merriweather", serif;
+}
+
+/* header section starts here */
+
+.header-content {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  width: 1100;
+  height: 600px;
+  border-radius: 16px;
+  margin: 50px 150px;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-sub-title {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Merriweather", serif;
+}
+
+/* banner section starts here */
+
+.banner-section {
+  margin: 50px 400px;
+  background: #fff;
+}
+
+.banner-offer {
+  color: #f00;
+  text-align: center;
+  font-size: 88px;
+  font-weight: 900;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 50px;
+}
+.banner-disc {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 5px;
+}
+
+.banner-title {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 50px;
+}
+/* welcome section design here */
+.welcome {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 50px 150px;
+  border-radius: 15px;
+}
+
+.welcome-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.welcome-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+}
+
+.welcome-disc {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.welcome-control {
+  padding: 0 120px;
+}
+
+.welcome-pic {
+  padding: 50px;
+}
+
+.welcome-btn {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 50px;
 }
